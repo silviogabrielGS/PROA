@@ -26,7 +26,7 @@
 .logo {
     color:#ff7200 ;
     font-size:35px ;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:Arial  ;
     padding-left: 20px;
     float: left;
     padding-bottom:10px ;
@@ -88,6 +88,7 @@ ul li a:hover {
 }
 
 .btn {
+    font-family: Arial;
     width: 100px;
     height: 40px;
     background: #ff7200;
@@ -169,6 +170,7 @@ ul li a:hover {
     padding: 25px;
 }
 
+
 .form h2 {
     width: 220px;
     font-family: sans-serif;
@@ -208,11 +210,14 @@ ul li a:hover {
     background-color: #ff7200;
     border: none;
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 15px;
+    font-family: Arial;
     border-radius: 10px;
     cursor: pointer;
     color:#fff ;
     transition: 0.4s ease;
+    text-decoration: none;
+    
 }
 
 .btnn:hover {
@@ -220,22 +225,23 @@ ul li a:hover {
     color: #ff7200;
 }
 
-.btn a {
+.btnn a {
     text-decoration: none;
     color: #000;
 }
 
-.link {
+.form .link {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
 }
 
- .link a {
+ .form .link a {
     text-decoration: none;
     color: #ff7200;
 }
+
 
 .liw {
     padding-top: 15px;
@@ -243,19 +249,21 @@ ul li a:hover {
     text-align: center;
 }
 
-.icons a {
+.icon a {
     text-decoration: none;
     color:#fff;
 }
 
-.icons ion-icons {
+.icons ion-icon {
     color: #fff;
     font-size: 30px;
     padding-left: 14px;
     padding-top: 5px;
     transition: 0.4s ease;
+    height:20px;
+
 }
 
-.icon ion-icons:hover {
+.icon ion-icon:hover {
     color: #ff7200;
 }
