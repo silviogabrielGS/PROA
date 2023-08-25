@@ -1,0 +1,63 @@
+    body{
+        background-color: rgb(216, 210, 210);
+    }
+    
+    h1{
+        color: blue;
+        font-size: 25px;
+    }
+
+    p{
+        font-size:10px ;
+        text-align: center;
+    }
+
+    #titulo {
+        color: black;
+    }
+
+    .city {
+        background-color: white;
+        color: black;
+    }
+
+    /* index13 */
+
+    #titulo01 {
+        background-color: #c5c5c5;
+        color: #c5c;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        border: 4px rgb(33, 255, 33) solid;
+        border-radius: 20px;
+    }
+
+    #paragrafo01 {
+        background-color: #c5c5c5;
+        color: bisque;
+        padding: 40px 50px 30px 10px;
+    }
+
+    /* index14 */
+
+    #paragrafo02{
+        border: 2px green solid;
+        padding: 10px;
+    }
+
+    #paragrafo03{
+        border: 2px solid green;
+        padding: 20px 40px 10px 40px;
+    }
+
+    /* index15 */
+
+    #paragrafo04{
+        border: 2px solid green;
+        margin: 40px;
+    }
+
+    #paragrafo05{
+        border: 2px green solid;
+        margin: 30px 40px 50px 60px;
+    }
