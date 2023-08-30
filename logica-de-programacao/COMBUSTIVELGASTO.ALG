@@ -6,11 +6,11 @@ Algoritmo "combustivelgasto"
 // Data atual  : 28/08/2023
 Var
 // Seção de Declarações das variáveis 
-carromedia:real   //consumo médio
+carromedia:real   //consumo médio em Km/L
 tempogasto:inteiro //em horas
 velocidade:inteiro // em KM/h
-distancia:real //
-combgasto:real
+distancia:real //  distancia em KM
+combgasto:real // Combustivel gasto em L
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
