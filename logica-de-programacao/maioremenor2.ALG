@@ -11,19 +11,19 @@ Var
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
-escreva("digite um valor ")
+escreva("digite um valor")
 leia(n1)
 
-escreva ("digite outro valor ")
+escreva ("digite outro valor")
 leia(n2)
 
-escreva("digite um valor ")
+escreva("digite um valor")
 leia(n3)
 
-escreva ("digite outro valor ")
+escreva ("digite outro valor")
 leia(n4)
 
-escreva("digite um valor ")
+escreva("digite um valor")
 leia(n5)
 
 se (n1 > n2) entao
