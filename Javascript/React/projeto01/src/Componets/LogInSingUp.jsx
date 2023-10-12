@@ -13,7 +13,7 @@ const LogInSingUp = () => {
             <div className="underline"></div>
         </div>
         <div className="inputs">
-            {action==="cadastrar-se"?<div></div>:
+            {action==="Login"?<div></div>:
             <div className="input">
             <img src={user_icon} alt="usuario" />
             <input type="text" placeholder="Seu nome"/>
@@ -26,7 +26,7 @@ const LogInSingUp = () => {
             
 
             <div className="input">
-            <img src={password_icon} alt="denha" />
+            <img src={password_icon} alt="senha" />
             <input type="passowrd" placeholder="Insira sua senha" />
             </div>
         </div>
