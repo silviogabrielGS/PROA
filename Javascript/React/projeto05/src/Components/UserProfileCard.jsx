@@ -1,10 +1,11 @@
 import React from "react"
 import './UserProfileCard.css'
 import SilvioGabrielGomesSantana from '../assets/SilvioGabrielGomesSantana.jpg'
+import backgroundCard from ' ../assets/background-card.png'
 
 const UserProfileCard = () => {
     return (
-        <div className="upc">
+        <div className="upc" style={backgroundCard}>
             <div className="gradiant"></div>
             <div className="profile-down">
             <img src={SilvioGabrielGomesSantana} alt="" />
