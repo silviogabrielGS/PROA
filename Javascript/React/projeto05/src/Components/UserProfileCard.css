@@ -1,53 +1,77 @@
+
 .upc {
-    width: 350px;
-    margin: 20px;
+    height: 560px;
+    width: 450px;
     border-radius: 4px;
     padding-bottom: 20px;
-    background: #fff;
+    background-image: url(../assets/backgroundCard.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
-.gradiant {
-    background: lightblue;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    position: relative;
-    transform: translate(50px,50px);
-    top: 10px;
-    left: -25px; 
-    overflow: hidden;
-}
-
 
 .profile-down img {
-    height: 150px;
-    border-radius:100px ;
-    margin-top:-75px ;
+    height: 200px;
+    border-radius:50% ;
+    margin-top:75px ;
     padding: 5px;
     background: #fff;
-    position: relative;
 }
 
 .profile-title {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .profile-description {
-    padding: 20px 40px;
-    font-size: 16px;
+    margin-top: -10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.521);
 }
 
 .profile-button {
     font-size: 16px;
-    background: #2b5dff;
     margin: 10px 100px;
     padding-top:8px ;
     padding-bottom: 10px;
     border-radius: 40px;
 }
 
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 40px;
+    height: 60px;
+}
+
+.icon :first-child {
+    color: #ffee00;
+    font-size: 40px;
+}
+
+.filtros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    max-width: 450px ;
+    flex-wrap: wrap;
+}
+
+.filtros span {
+    font-size: 20px;
+    margin-left: 14px;
+    margin-top: 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #3fc978;
+}
+
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(77, 77, 77);
+    text-decoration: underline #3fc978;
+    margin-bottom: 2px;
 }
