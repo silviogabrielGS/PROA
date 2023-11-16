@@ -1,5 +1,5 @@
-import './Menu.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "./Menu.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 import 'bootstrap/js/index.esm'
 import logoMenu from "../assets/logo-pequena-verde.svg"
 
@@ -7,7 +7,7 @@ function Menu() {
     return (
         <>
              <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container-fluid ">
+                <div className="container-fluid " >
 
                         <img src={logoMenu} alt="" width="150px" height="100px" style={{margin:"0px", padding:"0px"}} />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">

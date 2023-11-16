@@ -10,11 +10,11 @@ let porcvalidos=(validos *  100)/totalvotos
 let porcnulos=(nulos *  100)/totalvotos
 let porcbrancos=(brancos *  100)/totalvotos
 
-alert ("O total de votos foram " +totalvotos)
+alert ("O total de votos foram " + totalvotos)
 
-alert ("A porcentagem de votos válidos foi: " +porcvalidos)
+alert ("A porcentagem de votos válidos foi: " + porcvalidos)
 
-alert ("A porcentagem de votos nulos foi: " +porcnulos)
+alert ("A porcentagem de votos nulos foi: " + porcnulos)
 
-alert ("A porcentagem de votos brancos foi: " +porcbrancos)
+alert ("A porcentagem de votos brancos foi: " + porcbrancos)
 }

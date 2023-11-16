@@ -10,5 +10,5 @@ comissao= (valorint/100)*comissao
 comissao= quantcarros * comissao
 let valortotal = comissao + valorint
 
-alert(`O slário total do vendedor é ${valortotal}`)
+alert(`O salário total do vendedor é ${valortotal}`)
 }
