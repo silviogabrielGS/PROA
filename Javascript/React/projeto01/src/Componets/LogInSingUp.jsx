@@ -7,6 +7,7 @@ import'./LogInSingUp.css'
 const LogInSingUp = () => {
     const [action ,setAction] = useState("Login")
     return (
+    <div className="body">
         <div className="container"> 
         <div className="header">
             <div className="text">{action}</div>
@@ -37,6 +38,7 @@ const LogInSingUp = () => {
             <div className={action==="Cadastrar-se"?"submit gray": "submit"} onClick={()=> {setAction("Login")}}>Login</div>
         </div>
         </div>
+    </div>
     )
 }
 
